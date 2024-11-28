@@ -1,3 +1,6 @@
+
+# Write a Python function to check whether a string is pangram or not. (Assume
+# the string passed in does not have any punctuation)
 def is_pangram(input_str):
     input_str = input_str.lower()
     

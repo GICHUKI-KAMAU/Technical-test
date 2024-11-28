@@ -1,3 +1,6 @@
+
+# Write a Python function that checks whether a word or phrase is palindrome or
+# not.
 def is_palindrome(input_str):
     # Removing the space and coonvert the string to lowercase
     cleaned_str = ''.join(e.lower() for e in input_str if e.isalnum())

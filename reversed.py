@@ -1,3 +1,6 @@
+# Write a program that takes an integer as input and returns an integer with
+# reversed digit ordering.
+
 def reverse_integer(n):
     sign = -1 if n < 0 else 1
     
